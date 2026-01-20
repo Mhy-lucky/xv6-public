@@ -29,6 +29,7 @@ main(void)
   pinit();         // process table
   tvinit();        // trap vectors
   binit();         // buffer cache
+    cprintf("[KERNEL] 毛洪瑶 202311680374内核启动\n");
   fileinit();      // file table
   ideinit();       // disk 
   startothers();   // start other processors
